@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KinoPark</title>
+    <link rel="stylesheet" href="style1.css" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class = "Navbar">
+            <div id="frame2">
+                <img src="images/Frame%202.png">
+            </div>
+            <div id="frame">
+                <div class="dropdown">
+                    <img src="images/location.png" id="location">
+                    <img src="images/triangle.png" id="almtri">
+                    <button class="dropbtn">Алматы</button>
+                    <div class="dropdown-content">
+                        <a href="#">Нур-Султан</a>
+                        <a href="#">Алматы</a>
+                        <a href="#">Шымкент</a>
+                        <a href="#">Актау</a>
+                        <a href="#">Актобе</a>
+                        <a href="#">Атырау</a>
+                        <a href="#">Караганда</a>
+                        <a href="#">Кызылорда</a>
+                        <a href="#">Уральск</a>
+                    </div>
+                </div>
+            </div>
+            <div class = "group" id="groupid">
+                <div id="schedule" onclick="clicked('schedule')">Расписание</div>
+                <div id="skoro" onclick="clicked('skoro')">Скоро</div>
+                <div id="food" onclick="clicked('food')">Еда и напитки</div>
+                <div id="mykino" onclick="clicked('mykino')">Мой kinopark</div>
+            </div>
+            <div class = "login">Вход/Регистрация</div>
+            <div class="dropdown2">
+                <img src="images/triangle.png" id="rustri">
+                <button class="dropbtn2">Рус</button>
+                <div class="dropdown2-content">
+                    <a href="#">Қазақша</a>
+                    <a href="#">Русский</a>
+                    <a href="#">Qazaqsha</a>
+                    <a href="#">English</a>
+                </div>
+            </div>
+        </div>
+        <div class="mega-menu" id="idschedule">
+            <a class ="film">Фильмы</a>
+            <a class ="eks">Эксклюзив</a>
+            <a class ="line"></a>
+            <a class ="today">Сегодня в кино</a>
+            <a class ="theatre">Театр в кино</a>
+            <a class ="pred">Предпродажи</a>
+            <a class ="original">Original version</a>
+            <a class ="fest">Концерты и фестивали</a>
+            <div class ="imax">
+                Фильм в
+                <img src="images/i.png" id="i">
+                <img src="images/m.png" id="m">
+                <img src="images/a.png" id="a">
+                <img src="images/x.png" id="x">
+            </div>
+            <a id="r">®</a>
+            <a class ="kino">Документальное кино</a>
+            <a class ="sego">Сегодня в кино</a>
+            <div class = "seans">Все сеансы<img src="images/seansline.png" id="seansline"></div>
+            <img src="images/lion.jpg" class="lion">
+            <img src="images/teron.png" class="teron">
+            <img src="images/history.png" class="history">
+            <img src="images/teen.png" class="teen">
+            <a id="karl">Король лев</a>
+            <a id="ta">Та еще парочка</a>
+            <a id="game">История игрушек</a>
+            <a id="aim">За мечтой</a>
+        </div>
+        <div class="skoro-menu" id="idskoro">
+            <div id="screen">
+                <a>Скоро на экранах Kinopark и Kinoplexx</a>
+            </div>
+            <div id="smotret">
+                <a>Смотреть все предстоящие фильмы</a>
+                <img src="images/seansline.png" id="smotretline">
+            </div>
+            <div id="sales1"><a>Предпродажа</a></div>
+            <img src="images/pavar.png" id="pavar">
+            <img src="images/Rectangle%20(1).png" id="age1">
+            <a id="age11">16+</a>
+            <img src="images/date.png" id="date1">
+            <a id="date11">c 25.07.2019</a>
+            <div id="sales2"><a>Предпродажа</a></div>
+            <img src="images/vidok.png" id="vidok">
+            <img src="images/Rectangle%20(1).png" id="age2">
+            <a id="age22">16+</a>
+            <img src="images/date.png" id="date2">
+            <a id="date22">c 18.07.2019</a>
+            <img src="images/robot.png" id="robot">
+            <img src="images/Rectangle%20(1).png" id="age3">
+            <a id="age33">6+</a>
+            <img src="images/date.png" id="date3">
+            <a id="date33">c 25.07.2019</a>
+            <img src="images/remi.png" id="remi">
+            <img src="images/Rectangle%20(1).png" id="age4">
+            <a id="age44">6+</a>
+            <img src="images/date.png" id="date4">
+            <a id="date44">c 25.07.2019</a>
+            <img src="images/shag.png" id="shag">
+            <img src="images/Rectangle%20(1).png" id="age5">
+            <a id="age55">12+</a>
+            <img src="images/date.png" id="date5">
+            <a id="date55">c 25.07.2019</a>
+            <img src="images/vse.png" id="vse">
+            <img src="images/Rectangle%20(1).png" id="age6">
+            <a id="age66">16+</a>
+            <img src="images/date.png" id="date6">
+            <a id="date66">c 31.07.2019</a>
+            <img src="images/pesn.png" id="pesn">
+            <img src="images/Rectangle%20(1).png" id="age7">
+            <a id="age77">18+</a>
+            <img src="images/date.png" id="date7">
+            <a id="date77">c 01.08.2019</a>
+            <img src="images/ruslan.png" id="ruslan">
+            <img src="images/Rectangle%20(1).png" id="age8">
+            <a id="age88">6+</a>
+            <img src="images/date.png" id="date8">
+            <a id="date88">c 01.08.2019</a>
+            <div>
+                <a id="textpavar">Паваротти</a>
+                <a id="textvidok">Видок: Охотник на призраков</a>
+                <a id="textrobot">Мой друг робот</a>
+                <a id="textremi">Приключения Реми</a>
+                <a id="textshag">Шаг вперед 6:  Год танцев</a>
+                <a id="textvse">Все мои сыновья (Спе...</a>
+                <a id="textpesn">Песнь Дьявола</a>
+                <a id="textruslan">Руслан и Людмила: Пер...</a>
+            </div>
+        </div>
+        <div class="edanapitok" id="idfood">
+            <a>Скоро...</a>
+        </div>
+        <div class="kinopark" id="idmykino">
+            <a id="idspec">Спец. предложения</a>
+            <a id="idoso">Особые услуги</a>
+            <a id="idque">Часто задаваемые вопросы</a>
+            <a id="idkomp">О компании</a>
+            <a id="idmon">Беспредельный Понедельник</a>
+            <a id="idprem">Premium залы</a>
+            <a id="idpok">Покупка/возврат билетов</a>
+            <a id="idonas">О нас</a>
+            <a id="idsuper">СуперВторник</a>
+            <a id="idpled">Пледы в кинозалах</a>
+            <a id="idpol">Политика конфиденциальности</a>
+            <a id="idthe">Кинотеатры</a>
+            <a id="idfun">FunСреда</a>
+            <a id="iddlya">Для людей с ограниченными возможностями</a>
+            <img src="images/Rectangle%202.3.png" id="idmykinoline">
+            <a id="idbus">Для бизнеса</a>
+            <a id="idcoll">Kinopark Collection</a>
+            <a id="idpart">Партнеры</a>
+            <a id="idtech">Технологии</a>
+            <a id="idslu">Служба поддержки</a>
+            <a id="idnews">Новости</a>
+            <a id="idpass">Подписки KinoPass</a>
+            <a id="idimax">IMAX</a>
+            <a id="iddolby">Dolby Almos</a>
+            <a id="idlaser">Laser</a>
+            <a id="idnomer">+7 (702)000 60 68</a>
+            <a id="idkont">Контакты</a>
+        </div>
+    </header>
+</body>
+</html>
